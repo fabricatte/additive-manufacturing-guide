@@ -2,7 +2,7 @@
   "name": "additive-manufacturing-guide",
   "version": "1.0.0",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./assets/input.css -o ./themes/pehtheme-hugo/assets/css/main.css",
+    "build:css": "npx tailwindcss -i ./assets/input.css -o ./themes/pehtheme-hugo/assets/css/main.css --minify",
     "build:hugo": "hugo",
     "build": "npm run build:css && npm run build:hugo"
   },
