@@ -1,0 +1,79 @@
+baseURL = "https://additivemanufacturingguide.com/"
+languageCode = "en-us"
+title = "Additive Manufacturing Guide"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "Your go-to resource for 3D printing manufacturing — materials, techniques, industry insights, and production tips from the experts at Fabricatte."
+  author = "Fabricatte"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Additive Manufacturing Guide"
+    Content = "Expert insights on 3D printing manufacturing — materials, techniques, and production tips. Powered by [Fabricatte](https://www.fabricatte.com), your digital manufacturing partner."
+
+  [[params.socialIcons]]
+    name = "website"
+    url = "https://www.fabricatte.com"
+
+  [params.editPost]
+    disabled = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Articles"
+  url = "/posts/"
+  weight = 5
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 10
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 15
+
+[[menu.main]]
+  name = "Get a Quote"
+  url = "https://www.fabricatte.com/quote"
+  weight = 20
