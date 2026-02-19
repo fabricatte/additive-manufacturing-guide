@@ -1,79 +1,57 @@
-baseURL = "https://additivemanufacturingguide.com/"
-languageCode = "en-us"
-title = "Additive Manufacturing Guide"
-theme = "PaperMod"
-paginate = 10
+baseURL = 'https://additivemanufacturingguide.com/'
+languageCode = 'en-us'
+title = 'Additive Manufacturing Guide'
+theme = 'pehtheme-hugo'
+
+summaryLength = '20'
 
 [params]
-  env = "production"
-  description = "Your go-to resource for 3D printing manufacturing — materials, techniques, industry insights, and production tips from the experts at Fabricatte."
-  author = "Fabricatte"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  comments = false
+  description = 'Your go-to resource for 3D printing manufacturing — materials, techniques, industry insights, and production tips from the experts at Fabricatte.'
+  mainSections = 'posts'
+  defaultTheme = 'light'
 
-  [params.homeInfoParams]
-    Title = "Additive Manufacturing Guide"
-    Content = "Expert insights on 3D printing manufacturing — materials, techniques, and production tips. Powered by [Fabricatte](https://www.fabricatte.com), your digital manufacturing partner."
+[author]
+  name = 'Fabricatte'
+  bio = 'Expert insights on 3D printing manufacturing. Powered by Fabricatte, your digital manufacturing partner.'
+  avatar = ''
+  twitter = ''
 
-  [[params.socialIcons]]
-    name = "website"
-    url = "https://www.fabricatte.com"
+[pagination]
+  pagerSize = 6
 
-  [params.editPost]
-    disabled = true
-
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ["title", "permalink", "summary", "content"]
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'Articles'
+    pageRef = '/posts/'
+    weight = 15
+  [[menu.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 20
+  [[menu.main]]
+    name = 'Get a Quote'
+    url = 'https://www.fabricatte.com/quote'
+    weight = 25
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-[markup]
-  [markup.highlight]
-    noClasses = false
+  home = ["HTML", "RSS"]
 
 [sitemap]
-  changeFreq = "weekly"
+  changeFreq = 'weekly'
   priority = 0.5
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+  tag = 'tags'
+  category = 'categories'
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Articles"
-  url = "/posts/"
-  weight = 5
-
-[[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 10
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 15
-
-[[menu.main]]
-  name = "Get a Quote"
-  url = "https://www.fabricatte.com/quote"
-  weight = 20
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+  [module.mounts]
+    source = 'assets'
+    target = 'static'

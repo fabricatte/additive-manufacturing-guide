@@ -1,14 +1,19 @@
 ---
-title: "The Complete Guide to 3D Printing Materials: Choosing the Right Filament for Manufacturing"
-date: 2026-02-18
-draft: false
+title: "The Complete Guide to 3D Printing Materials: Choosing the Right Filament"
+date: 2026-02-18T08:00:00-05:00
+slug: /guide-to-3d-printing-materials/
 description: "Everything you need to know about 3D printing materials — PLA, PETG, ABS, ASA, TPU, and Carbon Fiber. Properties, applications, and how to choose the right one."
-tags: ["Materials", "PLA", "PETG", "ABS", "TPU", "Carbon Fiber", "Filament Guide"]
-categories: ["Materials"]
-cover:
-  image: ""
-  alt: "3D printing materials guide"
-  hidden: true
+categories:
+  - Materials
+tags:
+  - Materials
+  - PLA
+  - PETG
+  - ABS
+  - TPU
+  - Carbon Fiber
+  - Filament Guide
+draft: false
 ---
 
 Choosing the right material can make or break your 3D printing project. Each filament has unique properties that make it ideal for specific applications — and completely wrong for others. This guide breaks down the most popular manufacturing-grade materials so you can make the right call.
@@ -83,17 +88,6 @@ Carbon fiber reinforced filaments (usually CF-PLA, CF-PETG, or CF-Nylon) add cho
 - **Dimensional Stability:** Excellent — minimal warping and shrinkage
 - **Best for:** Drone frames, robotics, racing components, tooling, aerospace prototypes
 - **Not ideal for:** Impact-heavy applications (can be brittle), budget projects
-
-## Quick Comparison
-
-| Material | Strength | Heat Resistance | Flexibility | Cost | Difficulty |
-|----------|----------|----------------|-------------|------|-----------|
-| PLA | ★★★☆☆ | ★★☆☆☆ | ★☆☆☆☆ | $ | Easy |
-| PETG | ★★★★☆ | ★★★☆☆ | ★★☆☆☆ | $$ | Easy |
-| ABS | ★★★★☆ | ★★★★☆ | ★★☆☆☆ | $$ | Moderate |
-| ASA | ★★★★☆ | ★★★★☆ | ★★☆☆☆ | $$$ | Moderate |
-| TPU | ★★★☆☆ | ★★★☆☆ | ★★★★★ | $$$ | Hard |
-| Carbon Fiber | ★★★★★ | ★★★★☆ | ★☆☆☆☆ | $$$$ | Hard |
 
 ## How to Choose
 

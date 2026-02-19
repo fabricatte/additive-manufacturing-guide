@@ -1,14 +1,17 @@
 ---
 title: "FDM vs SLA 3D Printing: Which Technology Is Right for Your Project?"
-date: 2026-02-19
-draft: false
+date: 2026-02-19T08:00:00-05:00
+slug: /fdm-vs-sla-3d-printing/
 description: "A comprehensive comparison of FDM and SLA 3D printing technologies — strengths, limitations, materials, and when to use each for manufacturing."
-tags: ["FDM", "SLA", "3D Printing", "Comparison", "Manufacturing"]
-categories: ["Technology Guides"]
-cover:
-  image: ""
-  alt: "FDM vs SLA 3D Printing comparison"
-  hidden: true
+categories:
+  - Technology Guides
+tags:
+  - FDM
+  - SLA
+  - 3D Printing
+  - Comparison
+  - Manufacturing
+draft: false
 ---
 
 When choosing a 3D printing technology for your next project, the decision often comes down to two dominant methods: **Fused Deposition Modeling (FDM)** and **Stereolithography (SLA)**. Both have their place in modern manufacturing, but understanding their differences is key to getting the best results.
