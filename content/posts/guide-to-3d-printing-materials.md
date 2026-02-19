@@ -13,6 +13,7 @@ tags:
   - TPU
   - Carbon Fiber
   - Filament Guide
+image: images/materials-guide.png
 draft: false
 ---
 

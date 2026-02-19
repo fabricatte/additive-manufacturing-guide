@@ -11,6 +11,8 @@ tags:
   - 3D Printing
   - Comparison
   - Manufacturing
+  - feature
+image: images/fdm-vs-sla.png
 draft: false
 ---
 
