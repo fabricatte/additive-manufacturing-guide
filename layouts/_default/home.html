@@ -1,19 +1,17 @@
 {{ define "main" }}
 
 <!-- Hero Section -->
-<section class="relative my-14 rounded-3xl overflow-hidden">
-  {{ with resources.Get "images/hero.png" }}
-    {{ $hero := .Resize "1400x Q85" }}
-    <img class="w-full h-64 md:h-96 object-cover" src="{{ $hero.Permalink }}" alt="3D Print Farm">
-  {{ end }}
-  <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent flex items-center">
-    <div class="px-8 md:px-14 max-w-2xl">
-      <h1 class="text-3xl md:text-5xl font-bold text-white mb-4">Your Guide to Modern Manufacturing</h1>
-      <p class="text-lg md:text-xl text-zinc-200">Expert insights on 3D printing materials, technologies, and production — from prototyping to scale.</p>
-      <a class="inline-block mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full py-3 px-8 transition" href="https://www.fabricatte.com/quote">Get a Quote</a>
-    </div>
+{{ with resources.Get "images/hero.png" }}
+  {{ $hero := .Resize "1920x Q85" }}
+<section style="background-image: url('{{ $hero.Permalink }}'); background-size: cover; background-position: center; min-height: 500px;" class="relative flex items-center -mx-4 md:-mx-6 lg:-mx-8">
+  <div style="background: rgba(0,0,0,0.55);" class="absolute inset-0"></div>
+  <div class="relative z-10 px-8 md:px-14 max-w-3xl py-20">
+    <h1 style="font-size: 3.5rem; line-height: 1.1;" class="font-bold text-white mb-6">Your Guide to Modern Manufacturing</h1>
+    <p class="text-xl text-zinc-200 mb-8">Expert insights on 3D printing materials, technologies, and production — from prototyping to scale.</p>
+    <a class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full py-3 px-8 transition" href="https://www.fabricatte.com/quote">Get a Quote</a>
   </div>
 </section>
+{{ end }}
 <!-- / End Hero -->
 
 <!-- Feature post by tag = "feature" -->
