@@ -13,7 +13,7 @@ tags:
   - support structures
   - part orientation
   - wall thickness 3D printing
-image: /assets/images/design-rules-for-3d-printing.png
+image: images/design-rules-for-3d-printing.png
 draft: false
 ---
 
