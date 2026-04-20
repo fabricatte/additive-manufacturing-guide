@@ -5,6 +5,8 @@ draft: false
 slug: 3d-printing-resin-types-guide-sla-dlp
 description: "Explore every major 3D printing resin type — standard, tough, flexible, castable, dental, and engineering resins. Learn which SLA and DLP materials are best for prototyping, production, and end-use parts."
 tags: ["3d printing resin", "SLA materials", "DLP resin", "photopolymer resin", "engineering resin", "additive manufacturing materials"]
+images:
+  - images/3d-printing-resin-types-guide-sla-dlp.png
 ---
 
 Resin 3D printing has earned its place as the go-to technology for parts that demand fine detail, smooth surface finish, and tight tolerances. But the real power of [SLA and DLP printing](/posts/fdm-vs-sla-3d-printing/) isn't just the hardware — it's the extraordinary range of photopolymer resins now available. From standard prototyping resins to biocompatible dental materials and high-temperature engineering formulations, the right resin choice can make or break your project.
